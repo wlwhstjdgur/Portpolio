@@ -1,0 +1,8 @@
+g++ -c main.cpp sylee.cpp
+
+g++ main.o sylee.o -o sfml -lsfml-graphics -lsfml-window -lsfml-system
+
+./sfml
+
+g++ server.cpp -o server
+./server
